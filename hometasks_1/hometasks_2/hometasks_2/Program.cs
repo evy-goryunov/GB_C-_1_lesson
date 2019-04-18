@@ -23,7 +23,7 @@ namespace hometasks_2
 
 			bodyMassIndex = weight / (height * height);
 
-			Console.WriteLine("Ваш ИМТ: " + bodyMassIndex);
+			Console.WriteLine("Ваш ИМТ: {0:F1}", bodyMassIndex);
 
 			if (bodyMassIndex <= 18)
 			Console.WriteLine("У вас дефицит веса.");
